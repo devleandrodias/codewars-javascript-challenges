@@ -1,6 +1,9 @@
 const chai = require("chai");
 const assert = chai.assert;
-const { createPhoneNumber } = require("../src/0002-create-phone-number");
+
+const {
+  createPhoneNumber,
+} = require("../src/challenge/0002-create-phone-number");
 
 describe("[0002] - Create phone number", () => {
   it("should return a phone number following the pattern with the numbers inside the array", () => {

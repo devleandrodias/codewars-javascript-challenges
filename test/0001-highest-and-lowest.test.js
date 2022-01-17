@@ -1,5 +1,5 @@
 const chai = require("chai");
-const { highAndLow } = require("../src/0001-highest-and-lowest");
+const { highAndLow } = require("../src/challenge/0001-highest-and-lowest");
 const assert = chai.assert;
 chai.config.truncateThreshold = 0;
 
